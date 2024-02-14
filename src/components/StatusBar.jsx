@@ -1,4 +1,4 @@
-import useOnlineStatus from "../hooks/onlineStatus";
+import useOnlineStatus from "../hooks/useOnlineStatus";
 
 export default function StatusBar() {
   const isOnline = useOnlineStatus();

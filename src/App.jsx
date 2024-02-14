@@ -1,7 +1,11 @@
+import SaveButton from "./components/SaveButton";
 import StatusBar from "./components/StatusBar";
 
-export default function App(){
-    return (
-       <StatusBar/>
-    );
+export default function App() {
+  return (
+    <>
+      <StatusBar />
+      <SaveButton />
+    </>
+  );
 }
